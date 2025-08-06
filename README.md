@@ -9,7 +9,7 @@ An AI-powered multi-agent solution aligned with **SDG 11: Sustainable Cities and
 ## 🚀 Features
 - **Real-time weather data** fetched from OpenWeatherMap API
 - **Daily personalized tips** (e.g., carry an umbrella, wear sunscreen)
-- **Automated notifications** via email/SMS (configurable)
+- **Automated notifications** via email 
 - **User dashboard** to update preferences or unsubscribe
 - **Responsive modern UI** for desktop and mobile
 - **Deployed on Vercel** with a serverless backend
@@ -17,7 +17,7 @@ An AI-powered multi-agent solution aligned with **SDG 11: Sustainable Cities and
 ---
 
 ## 🛠 Tech Stack
-- **Frontend:** Next.js, React, custom CSS
+- **Frontend:** Next.js, React, CSS
 - **Backend:** Relay.app
 - **Database:** MongoDB Atlas
 - **API:** OpenWeatherMap (for weather data)
@@ -85,6 +85,8 @@ MONGODB_DB=your-db-name
 JWT_SECRET=your-jwt-secret
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 OPENWEATHERMAP_API_KEY=your-api-key
+NEXT_PUBLIC_RELAY_SIGNUP_WEBHOOK=relay-url
+NEXT_PUBLIC_RELAY_UPDATE_WEBHOOK=relay-url
 ```
 ### 4️⃣ Run the development server
 ```
@@ -99,7 +101,7 @@ npm run dev
 
     AI agent maps tips → Example: "Rain" → "Carry an umbrella".
 
-    User gets alerts → Email/SMS is sent with the tip.
+    User gets alerts → Email is sent with the tip.
 
     Dashboard → User can update preferences or unsubscribe anytime.
 ```
@@ -111,7 +113,3 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-### 📜 License
-
-This project is licensed under the MIT License.
