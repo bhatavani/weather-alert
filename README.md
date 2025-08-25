@@ -12,7 +12,7 @@ An AI-powered multi-agent solution aligned with **SDG 11: Sustainable Cities and
 - **Automated notifications** via email 
 - **User dashboard** to update preferences or unsubscribe
 - **Responsive modern UI** for desktop and mobile
-- **Deployed on Vercel** with a serverless backend
+- **Temporarily Deployed on Ngrok** for development.
 
 ---
 
@@ -22,7 +22,7 @@ An AI-powered multi-agent solution aligned with **SDG 11: Sustainable Cities and
 - **Database:** MongoDB Atlas
 - **API:** OpenWeatherMap (for weather data)
 - **Auth & Links:** JWT (JSON Web Token) for secure dashboard links
-- **Deployment:** Vercel
+- **Temporary Deployment:** Ngrok
 
 ---
 
